@@ -7,7 +7,11 @@
 	"authors": [
 		"Victor"
 	],
-	"contact": {},
+	"contact": {
+		"homepage": "https://github.com/VictorMartinsPenna/CobbleBeacon",
+		"issues": "https://github.com/VictorMartinsPenna/CobbleBeacon/issues",
+		"sources": "https://github.com/VictorMartinsPenna/CobbleBeacon"
+	},
 	"license": "MIT",
 	"icon": "assets/cobblebeacon/icon.png",
 	"environment": "*",

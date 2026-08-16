@@ -23,16 +23,16 @@ public final class CobbleBeaconConfig {
 	 * this divides that rate instead of adding to it: 4.0 means wild shinies become roughly
 	 * 4x as common (e.g. ~1 in 1024) while the effect is active.
 	 */
-	public double shinyLuckRateDivisor = 4.0D;
+	public double shinyLuckRateDivisor = 8.0D;
 
 	/** Extra flat chance added to Cobbreeding's hatched-egg shiny roll. */
-	public double eggShinyBonusChance = 0.002D;
+	public double eggShinyBonusChance = 0.01D;
 
 	/** Multiplier applied to Cobbreeding's egg TIMER countdown speed (2.0 = twice as fast). */
-	public double eggHatchSpeedMultiplier = 1.5D;
+	public double eggHatchSpeedMultiplier = 2.0D;
 
 	/** Multiplier applied to Cobbleworkers' navigation/deposit/scan cooldowns (0.5 = half the wait). */
-	public double workerCooldownMultiplier = 0.6D;
+	public double workerCooldownMultiplier = 0.5D;
 
 	private static CobbleBeaconConfig instance;
 	private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();

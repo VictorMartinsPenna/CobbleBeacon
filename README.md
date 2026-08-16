@@ -33,10 +33,10 @@ A `cobblebeacon.json` is generated in your config folder on first run:
 
 ```json
 {
-  "shinyLuckRateDivisor": 4.0,
-  "eggShinyBonusChance": 0.002,
-  "eggHatchSpeedMultiplier": 1.5,
-  "workerCooldownMultiplier": 0.6
+  "shinyLuckRateDivisor": 8.0,
+  "eggShinyBonusChance": 0.01,
+  "eggHatchSpeedMultiplier": 2.0,
+  "workerCooldownMultiplier": 0.5
 }
 ```
 
@@ -62,6 +62,15 @@ Both are operator-only (permission level 2):
 ```
 
 The output jar is written to `build/libs/`.
+
+## Third-Party Assets
+
+Most icons in this mod are original artwork. Two are adapted from other projects instead of being
+drawn from scratch, credited here per their respective licenses:
+
+- `diligence.png` is adapted from vanilla Minecraft's Haste effect icon (© Mojang/Microsoft).
+- `fertility.png` is adapted from [Cobbreeding](https://modrinth.com/mod/cobbreeding)'s egg icon,
+  used and modified under Cobbreeding's MIT License.
 
 ## Disclaimer
 
