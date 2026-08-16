@@ -66,9 +66,11 @@ The output jar is written to `build/libs/`.
 
 ## Third-Party Assets
 
-Most icons in this mod are original artwork. Two are adapted from other projects instead of being
-drawn from scratch, credited here per their respective licenses:
+Some icons in this mod are adapted from other projects instead of being drawn entirely from
+scratch, credited here per their respective licenses:
 
+- `icon.png` is repainted by hand from vanilla Minecraft's Beacon item icon (© Mojang/Microsoft),
+  with an original poké-ball-inspired top design added.
 - `diligence.png` is adapted from vanilla Minecraft's Haste effect icon (© Mojang/Microsoft).
 - `fertility.png` is adapted from [Cobbreeding](https://modrinth.com/mod/cobbreeding)'s egg icon,
   used and modified under Cobbreeding's MIT License.
