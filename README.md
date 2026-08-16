@@ -24,8 +24,9 @@ amplified tier II (stronger effect, same power).
   something if the matching mod is installed; otherwise picking them is simply a no-op (they still
   show up as selectable, since the beacon has no built-in way to hide options per-server).
 
-CobbleBeacon is a **server-side** mod. It doesn't need to be installed on the client for singleplayer
-worlds hosted from that same client, but on a dedicated server only the server needs it.
+CobbleBeacon works in both **singleplayer** and on a **dedicated server**. All of its logic runs
+server-side, so on a dedicated server only the server needs the mod installed — connecting players
+don't need it on their own client.
 
 ## Configuration
 
