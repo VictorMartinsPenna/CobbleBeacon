@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "cobblebeacon",
+	"version": "${version}",
+	"name": "CobbleBeacon",
+	"description": "Adds Cobblemon/Cobbreeding/Cobbleworkers-flavored powers to the vanilla Beacon: shiny luck for wild spawns, faster Cobbleworkers jobs, and faster/luckier Cobbreeding eggs.",
+	"authors": [
+		"Victor"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/cobblebeacon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cobblebeacon.CobbleBeacon"
+		],
+		"client": [
+			"com.cobblebeacon.client.CobbleBeaconClient"
+		]
+	},
+	"mixins": [
+		"cobblebeacon.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cobblemon": ">=1.7.0"
+	},
+	"suggests": {
+		"cobbleworkers": "*",
+		"cobbreeding": "*"
+	}
+}
